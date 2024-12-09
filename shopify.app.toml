@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "7c382f15b132920a89756a0df300439b"
-application_url = "https://near-dog-louisville-hewlett.trycloudflare.com"
+application_url = "https://boxing-differences-master-recreational.trycloudflare.com"
 embedded = true
 name = "Billinguo Order"
 handle = "billinguo-order"
@@ -19,9 +19,9 @@ scopes = "write_products, read_orders"
 
 [auth]
 redirect_urls = [
-  "https://near-dog-louisville-hewlett.trycloudflare.com/auth/callback",
-  "https://near-dog-louisville-hewlett.trycloudflare.com/auth/shopify/callback",
-  "https://near-dog-louisville-hewlett.trycloudflare.com/api/auth/callback"
+  "https://boxing-differences-master-recreational.trycloudflare.com/auth/callback",
+  "https://boxing-differences-master-recreational.trycloudflare.com/auth/shopify/callback",
+  "https://boxing-differences-master-recreational.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
@@ -30,3 +30,4 @@ embedded = false
 [build]
 dev_store_url = "ashutoshdev.myshopify.com"
 automatically_update_urls_on_dev = true
+include_config_on_deploy = true

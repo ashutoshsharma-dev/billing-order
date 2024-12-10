@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "7c382f15b132920a89756a0df300439b"
-application_url = "https://boxing-differences-master-recreational.trycloudflare.com"
+application_url = "https://numerous-depend-fu-mobility.trycloudflare.com"
 embedded = true
 name = "Billinguo Order"
 handle = "billinguo-order"
@@ -15,13 +15,13 @@ api_version = "2024-10"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products, read_orders"
+scopes = "read_products, read_orders, read_customers"
 
 [auth]
 redirect_urls = [
-  "https://boxing-differences-master-recreational.trycloudflare.com/auth/callback",
-  "https://boxing-differences-master-recreational.trycloudflare.com/auth/shopify/callback",
-  "https://boxing-differences-master-recreational.trycloudflare.com/api/auth/callback"
+  "https://numerous-depend-fu-mobility.trycloudflare.com/auth/callback",
+  "https://numerous-depend-fu-mobility.trycloudflare.com/auth/shopify/callback",
+  "https://numerous-depend-fu-mobility.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]

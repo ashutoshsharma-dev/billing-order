@@ -22,11 +22,11 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-        <Link to="/language">Language</Link>
-        <Link to="/templates">Templates</Link>
-        <Link to="/automation">Automation</Link>
-        <Link to="/plans">Plans</Link>
-        <Link to="/settings">Settings</Link>
+        <Link to="/app/language">Language</Link>
+        <Link to="/app/templates">Templates</Link>
+        <Link to="/app/automation">Automation</Link>
+        <Link to="/app/plans">Plans</Link>
+        <Link to="/app/settings">Settings</Link>
       </NavMenu>
       <Outlet />
     </AppProvider>
